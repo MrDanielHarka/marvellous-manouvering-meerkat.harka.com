@@ -1,0 +1,28 @@
+{
+  "name": "Marvellous Manouvering Meerkat",
+  "short_name": "shortName",
+  "version": "1.0",
+  "description": "Marvellous Manouvering Meerkat.",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "24": "icon24.png",
+      "32": "icon32.png"
+    },
+    "default_title": "Marvellous Manouvering Meerkat"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["mmm.js"]
+    }
+  ],
+  "host_permissions": ["*://*/*"]
+}

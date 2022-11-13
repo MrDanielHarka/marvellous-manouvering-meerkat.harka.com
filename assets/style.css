@@ -1,0 +1,20 @@
+footer,
+h1 {
+  text-align: center;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 500px) {
+  .intro {
+    flex-direction: row;
+  }
+}
+
+.intro img {
+  margin: auto;
+  padding: 1rem;
+}
