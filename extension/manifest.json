@@ -1,8 +1,9 @@
 {
   "name": "Marvellous Manouvering Meerkat",
-  "short_name": "shortName",
-  "version": "1.0",
+  "short_name": "MMM",
+  "version": "1.0.1",
   "description": "Marvellous Manouvering Meerkat.",
+  "homepage_url": "https://marvellous-manouvering-meerkat.harka.com",
   "manifest_version": 3,
   "action": {
     "default_icon": {
@@ -21,6 +22,7 @@
   "content_scripts": [
     {
       "matches": ["*://*/*"],
+	  "js": ["mmm.js"],
       "js": ["mmm.js"]
     }
   ],
